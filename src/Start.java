@@ -8,6 +8,7 @@ public class Start {
 		MyFrame frame2 = new OvalTest();
 		MyFrame frame3 = new TextTest();
 		MyFrame frame4 = new RectAndOval();
+		MyFrame frame5 = new RectLoop();
 
 	}
 }
