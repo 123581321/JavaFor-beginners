@@ -3,7 +3,6 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.Frame;
 import java.awt.Graphics;
-import java.awt.Image;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.awt.image.BufferedImage;
@@ -171,5 +170,18 @@ public class MyFrame extends Frame implements Runnable {
 			g.drawString(str, x, y);
 		}
 	}
+	public synchronized void drawRect(int x, int y, int w, int h) {
+	    Graphics g = getImageGraphics();
+	    if (g != null) {
+	        g.setColor(col);
+	        g.drawRect(x, y, w, h);
+	    }
+	    g = getGraphics();
+	    if (g != null) {
+	        g.setColor(col);
+	        g.drawRect(x, y, w, h);
+	    }
+	}
+
 
 }
