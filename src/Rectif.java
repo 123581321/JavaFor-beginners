@@ -28,8 +28,12 @@ public class Rectif extends MyFrame{
 		
 	//}
 		for	(i = 0; i<20; i++) {
-			if(i<10) {setColor(i*10,i*10,i*10);}
-			else {setColor(i-10,i-10,i-10);}
+			if(i<10){
+				setColor(i*10,i*10,i*10);
+				}
+			else {
+				setColor((20 -i)*10,(20 -i)*10,(20 - i)*10);
+				}
 		     fillRect(20 +i * 15,30,10,30);
 			
 
