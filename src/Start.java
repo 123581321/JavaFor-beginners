@@ -11,6 +11,8 @@ public class Start {
 		//MyFrame frame5 = new RectLoop();
 		//MyFrame frame6 = new Rectif();
 		//MyFrame frame7 = new DisplayRectSlow();
-        MyFrame frame8 = new Animation();
+        //MyFrame frame8 = new Animation();
+		//MyFrame frame9 = new ExAnimation();
+        MyFrame frame10 = new ExAnimation2();
 	}
 }
