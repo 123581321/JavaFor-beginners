@@ -13,6 +13,10 @@ public class Start {
 		//MyFrame frame7 = new DisplayRectSlow();
         //MyFrame frame8 = new Animation();
 		//MyFrame frame9 = new ExAnimation();
-        MyFrame frame10 = new ExAnimation2();
+        //MyFrame frame10 = new ExAnimation2();
+		//MyFrame frame11 = new DisplayFace();
+		//MyFrame f = new DisplayFaceObject();
+		//MyFrame e = new CarObject();
+		MyFrame a = new DisplayFaceVector();
 	}
 }
