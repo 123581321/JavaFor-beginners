@@ -18,8 +18,11 @@ public class Start {
 		//MyFrame f = new DisplayFaceObject();
 		//MyFrame e = new CarObject();
 		//MyFrame a = new DisplayFaceVector();
-		//MyFrame w  = new DisplayCars();
+		MyFrame w  = new DisplayCars();
 		//MyFrame i = new DisplayCarTrain();
-		MyFrame j = new DisPplayCarsTrains();
+		//MyFrame j = new DisPplayCarsTrains();
+		//MyFrame f = new PlayerAnimation();
+		MyFrame f = new DisplayTruck();
+
 	}
 }
