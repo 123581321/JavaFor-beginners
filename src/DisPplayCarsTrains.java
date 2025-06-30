@@ -14,7 +14,7 @@ public class DisPplayCarsTrains extends MyFrame{
 		}
 				
 	} //ダブルクリック
-	  //alt + Shift + Rで変えられる  
+	  //alt + Shift + Rで変えられる
 	
 
 }
